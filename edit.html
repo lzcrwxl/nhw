@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="index,follow"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1, user-scalable=no"/>
+  <meta name="HandheldFriendly" content="true">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+  <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/edit.css">
+  <script src="js/common.js"></script>
+  <title>编辑个人资料</title>
+</head>
+<body>
+<header>
+  <a class="showBar mt40 editProfile fix forward rel pr30">
+    <span class="f30 g3">我的头像</span>
+    <div class="profile">
+      <img src="img/avator.png" alt="">
+    </div>
+  </a>
+</header>
+<section>
+  <div class="showBar mt40 fix">
+    <ul class="infoBox">
+      <li class="rel forward">
+        <a href="#" class="infoWwrapper g3 f30">
+          昵称:
+          <span class="r pr70 g9">桂花大哥</span>
+        </a>
+      </li>
+      <li class="rel forward">
+        <a href="#" class="infoWwrapper g3 f30">
+          性别:
+          <span class="r pr70 g9">男</span>
+        </a>
+      </li>
+      <li class="rel forward">
+        <a href="#" class="infoWwrapper g3 f30">
+          所在地:
+          <span class="r pr70 g9">上海崇明</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <div class="showBar mt40 fix">
+    <ul class="infoBox">
+      <li class="rel forward">
+        <a href="#" class="infoWwrapper g3 f30">
+          手机号:
+          <span class="r pr70 g9">15232039485</span>
+        </a>
+      </li>
+      <li class="rel forward">
+        <a href="#" class="infoWwrapper g3 f30">
+          真实姓名:
+          <span class="r pr70 g9">龙哥</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+<div class="module"></div>
+<div class="editBox">
+  <ul class="editList">
+    <li class="g3">男</li>
+    <li class="gc8">女</li>
+  </ul>
+  <button class="completed mt10">完成</button>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper-3.4.1.jquery.min.js"></script>
+<script>
+  var mySwiper = new Swiper('.swiper-container', {
+    loop: true,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    autoplay: 5000
+  })
+</script>
+</html>

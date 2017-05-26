@@ -1,0 +1,375 @@
+body {
+  background: #f2f2f2;
+  color: #666666;
+}
+.tipsList {
+  padding: 0 .26rem;
+  margin: .3rem 0;
+}
+.tipItem {
+  display: inline-block;
+  padding: 0 .22rem;
+  height: .5rem;
+  line-height: .5rem;
+  background-color: #f5f5f5;
+  color: #999999;
+  font-size: .22rem;
+  border-radius: .25rem;
+}
+footer {
+  width: 100%;
+  background: #ffffff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 1.3rem;
+}
+footer a {
+  text-align: center;
+  font-size: .24rem;
+  color: #ccc;
+}
+footer .service {
+  flex: 0 0 1.3rem;
+}
+footer .service dl {
+  margin-top: .26rem;
+}
+footer .service dl dt {
+  background: url("../img/wechat.png") no-repeat center center;
+  background-size: .46rem .38rem;
+  width: 100%;
+  height: .38rem;
+}
+footer .service dl dd {
+  margin-top: .16rem;
+}
+footer .collect {
+  flex: 0 0 1.3rem;
+}
+footer .collect dl {
+  margin-top: .28rem;
+}
+footer .collect dl dt {
+  background: url("../img/col_sel.png") no-repeat center center;
+  background-size: .38rem;
+  width: 100%;
+  height: .38rem;
+}
+footer .collect dl dd {
+  margin-top: .14rem;
+}
+footer .signUp {
+  flex: 1;
+  line-height: 1.3rem;
+  background-color: #2cc17b;
+  color: #ffffff;
+  font-size: .36rem;
+}
+section {
+  margin-bottom: 1.5rem;
+}
+.showBox {
+  background: #ffffff;
+  padding-top: .3rem;
+  padding-left: .2rem;
+}
+.showBox h4 {
+  font-size: .32rem;
+  line-height: .48rem;
+}
+.actTitle {
+  color: #2cc17b;
+  font-size: .32rem;
+  position: relative;
+  padding-left: .34rem;
+}
+.actTitle:before {
+  content: '';
+  position: absolute;
+  top: -0.02rem;
+  left: 0;
+  width: .12rem;
+  height: .37rem;
+  background: #2cc17b;
+}
+.forward:after {
+  content: '';
+  position: absolute;
+  background: url("../img/forward.png") no-repeat right center;
+  background-size: .15rem .26rem;
+  width: .15rem;
+  height: .26rem;
+  right: .3rem;
+  top: 50%;
+  margin-top: -0.13rem;
+}
+.arrow:after {
+  content: '';
+  position: absolute;
+  background: url("../img/detail/arrow.png") no-repeat right center;
+  background-size: .11rem .17rem;
+  width: .11rem;
+  height: .17rem;
+  right: .3rem;
+  top: 50%;
+  margin-top: -0.085rem;
+}
+.showBar {
+  display: block;
+  padding-left: .3rem;
+  background: #ffffff;
+  border-top: .01rem solid #e6e6e6;
+  border-bottom: .01rem solid #e6e6e6;
+}
+.infoBox li {
+  height: .9rem;
+  line-height: .9rem;
+}
+.infoBox li:not(:last-child) {
+  border-bottom: .01rem solid #e6e6e6;
+}
+.infoBox li .infoWwrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dot {
+  position: absolute;
+  width: .32rem;
+  height: .32rem;
+  background: #ff3333;
+  font-size: .24rem;
+  color: #ffffff;
+  border-radius: 100%;
+  text-align: center;
+  line-height: .32rem;
+}
+.footList {
+  width: 100%;
+}
+.footList li {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+.footList li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footList .home dt {
+  background: url("../img/home_sel.png") no-repeat center center;
+  background-size: .41rem .38rem;
+  width: 100%;
+  height: .38rem;
+  margin-top: .22rem;
+}
+.footList .home dd {
+  margin-top: .09rem;
+}
+.footList .my dt {
+  background: url("../img/my.png") no-repeat center center;
+  background-size: .32rem .37rem;
+  width: 100%;
+  height: .37rem;
+  margin-top: .22rem;
+}
+.footList .my dd {
+  margin-top: .1rem;
+}
+.module {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+.swiper-container img {
+  width: 100%;
+}
+.swiper-container .swiper-pagination-bullet {
+  width: .1rem;
+  height: .1rem;
+  background: #ffffff;
+  opacity: .4;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1!important;
+}
+.showBox {
+  background: #ffffff;
+  padding: .3rem .3rem .3rem .2rem;
+}
+.showBox h4 {
+  font-size: .32rem;
+  line-height: .48rem;
+}
+.priceBox {
+  margin: .3rem .08rem;
+}
+.priceBox .origin {
+  font-size: .32rem;
+  color: #2cc17b;
+}
+.priceBox .origin i {
+  font-size: .24rem;
+}
+.priceBox .market {
+  color: #999999;
+  font-size: .24rem;
+}
+.tipItem {
+  background: #ffffff;
+  border: .01rem solid #999;
+}
+.actTitle {
+  color: #2cc17b;
+  font-size: .32rem;
+  position: relative;
+  padding-left: .34rem;
+}
+.actTitle:before {
+  content: '';
+  position: absolute;
+  top: -0.02rem;
+  left: 0;
+  width: .12rem;
+  height: .37rem;
+  background: #2cc17b;
+}
+.infoBottom {
+  margin-top: .31rem;
+}
+.infoBottom ul li {
+  display: flex;
+  line-height: .4rem;
+}
+.infoBottom ul li h5 {
+  flex: 0 0 1.4rem;
+  font-size: .28rem;
+  color: #999;
+  text-align: justify;
+}
+.leader .avator {
+  margin-top: .24rem;
+  height: .7rem;
+  overflow: hidden;
+}
+.leader .avator img {
+  width: .7rem;
+  height: .7rem;
+  border-radius: 100%;
+}
+.more {
+  position: absolute;
+  width: .4rem;
+  height: .7rem;
+  background: url("../img/detail/arrow.png") no-repeat right center;
+  background-size: .11rem .17rem;
+  top: 0;
+  right: 0;
+}
+.trip {
+  background: #ffffff;
+}
+.trip .tripList {
+  display: flex;
+  justify-content: space-between;
+  height: .9rem;
+  line-height: .9rem;
+  border-bottom: .01rem solid #e6e6e6;
+}
+.trip .tripList li {
+  flex: 1;
+  position: relative;
+}
+.trip .tripList li a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: .28rem;
+  color: #999999;
+}
+.descBg {
+  margin-top: .38rem;
+}
+.descBg img {
+  width: 100%;
+}
+.trip-active a {
+  color: #2cc17b !important;
+}
+.trip-active:after {
+  content: '';
+  position: absolute;
+  width: 1.87rem;
+  height: .07rem;
+  background: #2cc17b;
+  bottom: 0;
+  left: 0;
+}
+.recommand {
+  background: #ffffff;
+  padding-top: .3rem;
+}
+.recommand .actTitle {
+  padding-left: .54rem;
+}
+.recommand .actTitle:before {
+  left: .2rem;
+}
+.recommand .activities {
+  border-top: .01rem solid #e5e5e5;
+  border-bottom: .01rem solid #e5e5e5;
+  padding-left: .2rem;
+}
+.recommand .activities li {
+  font-size: .24rem;
+  height: 1.04rem;
+  line-height: 1.04rem;
+}
+.recommand .activities li:not(:last-child) {
+  border-bottom: .01rem solid #e5e5e5;
+}
+.recommand .activities li .introduction {
+  display: inline-block;
+  width: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.recommand .activities li .pricing {
+  float: right;
+  margin-right: .3rem;
+}
+.recommand .activities li .pricing i {
+  color: #2cc17b;
+}
+.recommand .activities li .pricing:after {
+  margin-left: .11rem;
+  content: '';
+  display: inline-block;
+  width: .11rem;
+  height: .17rem;
+  background: url("../img/detail/arrow.png") no-repeat right center;
+  background-size: .11rem .17rem;
+}
+.back {
+  position: fixed;
+  right: .3rem;
+  top: 10rem;
+  width: 1.08rem;
+  height: 1.08rem;
+  border-radius: 50%;
+  background-color: #2cc17b;
+  opacity: .9;
+  background-image: url("../img/detail/back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: .34rem .3rem;
+}
